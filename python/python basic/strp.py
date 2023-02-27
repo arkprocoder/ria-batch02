@@ -27,3 +27,6 @@ z="a"
 a="10"
 print(z.isalpha())
 print(a.isdigit())
+txt = "banana"
+x = txt.center(120)
+print(x)
