@@ -1,7 +1,7 @@
-# anees="name"
-# name2='i am coder'
-# print('i am coder')
-# print("250")
+anees="name"
+name2='i am coder'
+print('i am coder')
+print("250")
 # print(250)
 # print(anees)
 # print(name2)
