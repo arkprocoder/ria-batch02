@@ -1,0 +1,10 @@
+mylist=[1,2,"3",4,"5","ria","python",True]
+print(mylist[:])
+print(mylist[1:4])
+print(mylist[4:])
+print(mylist[:6])
+print(mylist[::-1])
+print(mylist[::-2])
+print(mylist[::2])
+print(mylist[::6])
+print(mylist[:-5])
