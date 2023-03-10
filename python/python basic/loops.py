@@ -1,4 +1,4 @@
-'''
+
 for i in range(100):
     print(i)
 
@@ -10,7 +10,7 @@ for i in range(1,101,2):
 
 for i in range(0,101,2):
     print(i)
-'''
+
 
 # mylist=["apples","mango","orange","pineapple","grapes","grapes",1,2,3,4,5,True]
 
