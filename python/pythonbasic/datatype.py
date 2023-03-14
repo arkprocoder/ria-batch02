@@ -1,7 +1,9 @@
-anees="name"
+a1233="anees"
 name2='i am coder'
 print('i am coder')
 print("250")
+# print(type(name111))
+
 # print(250)
 # print(anees)
 # print(name2)
@@ -12,7 +14,7 @@ res=num1+num2
 print("the sum of  number is ",res)
 print("the sum of",num1,"and",num2,"is",res)
 operation='addition'
-print(type(num1))
+print(type(num1)) 
 print(type(num2))
 print(type(operation))
 

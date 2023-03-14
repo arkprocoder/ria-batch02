@@ -1,16 +1,15 @@
-'''
 mystr="10"
 mynum=20
 mystr2="ria"
-mystrfloat=12.34
+mystrfloat=12.74
 
 print(mystr,type(mystr))
 print(mynum,type(mynum))
 print(mystr2,type(mystr2))
+
 print(mystrfloat,type(mystrfloat))
-
-
 mystr=int(mystr)
+# mystr2=int(mystr2)
 print(mystr,type(mystr))
 
 mynum=str(mynum)
@@ -21,7 +20,7 @@ print(mynum,type(mynum))
 
 mystrfloat=int(mystrfloat)
 print(mystrfloat,type(mystrfloat))
-'''
+
 mybool1="True"
 mybool2=False
 print(mybool1,type(mybool1))

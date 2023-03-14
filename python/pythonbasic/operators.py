@@ -11,7 +11,7 @@ y%=20
 print(y)
 
 y=20
-y%=3
+y%=3 #y=20%3
 print(y)
 
 y=20
@@ -30,7 +30,7 @@ False and True = False
 False and False = False
 
 # or as addition
-True or True = True
+True or True and False or False and True = True
 True or False = True
 False or True = True
 False or False = False 

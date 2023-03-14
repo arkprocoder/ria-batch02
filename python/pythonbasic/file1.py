@@ -76,14 +76,17 @@
 # f.write("\ni am new text")
 # f.close()
 
-f=open("ria.txt","r+")
-f.write("i am new text write and read\n")
-content=f.read()
-print(content)
-f.close()
+# f=open("ria.txt","r+")
+# f.write("i am new text write and read\n")
+# content=f.read()
+# print(content)
+# f.close()
 
-f=open("ria.txt","r+")
-f.seek(125)
-print(f.tell())
-print(f.readlines())
-f.close()
+# f=open("ria.txt","r+")
+# f.seek(125)
+# print(f.tell())
+# print(f.readlines())
+# f.close()
+
+# import os
+# os.remove("ar.txt")
