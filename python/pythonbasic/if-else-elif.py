@@ -12,7 +12,7 @@
 
 # x=25
 # y=50
-# if(x>y):
+# if(x<y):    
 #     print("i am inside if block")
 #     print("x is < then y")
 #     print("output of x and y",x+y)
@@ -22,7 +22,7 @@
 
 # x=25
 # y=50
-# if(x>y):
+# if(x<y):
 #     print("i am inside if block ")
 #     print("x is < then y")
 #     print("output of x and y",x+y)
@@ -66,3 +66,9 @@ elif(age>18 and age<=85):
 
 else:
     print("Enjoy you last days")
+
+# 12>12=False
+# 12<=12=True
+# 12>=12=True
+# 12<12=False
+# 12==12=True

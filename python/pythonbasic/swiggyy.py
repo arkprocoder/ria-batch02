@@ -25,11 +25,8 @@ items : list
 your total amount is :  '''
 
 
-''''
+
 menuitems={1:'rice',2:'idli',3:'burger',4:'pizza',5:'chicken',6:'dosa',7:'tea',8:'exit'}
-
-
-
 orderItems=[]
 
 
@@ -55,7 +52,7 @@ def menu():
     handleMenu()
 
 menu()
-'''
+
 
 
 import time
