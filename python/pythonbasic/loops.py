@@ -1,22 +1,25 @@
 
-# for i in range(100):
+# for i in range(101):
 #     print(i)
 
 # for i in range(10,101):
 #     print(i)
 
-# for i in range(1,1001,2):
+# for i in range(1,1001,6):
 #     print(i)
 
 # for i in range(0,101,2):
-#     print(i)
+# #     print(i)
 
-# for i in range(100,0,-2):
+# for i in range(100,0,-1):
 #     print(i)
 
 
 mylist = ["apples", "mango", "orange", "pineapple",
           "grapes", "grapes", 1, 2, 3, 4, 5, True]
+
+# for k in mylist:
+#     print(k)
 
 # for k in mylist[::2]:
 #     print(k)
@@ -55,7 +58,7 @@ mylist = ["apples", "mango", "orange", "pineapple",
 # if len(item)>0:
 #     print("item is found",item)
 # else:
-#     print("item is not found")
+# #     print("item is not found")
 
 
 # menu = ["French Fries",
@@ -93,5 +96,5 @@ i=1
 while(i<10):
     print(i)
     i=i+1
-    if i==7:
-        break
+    # if i==7:
+    #     break

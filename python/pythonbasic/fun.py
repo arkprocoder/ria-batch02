@@ -7,7 +7,7 @@
 # def greeting(name):
 #     print("Good Morning",name)
  
-# greeting("Anees")
+# greeting("anees")
 # greeting("Subendru")
 
 # def greeting(name="gobin"):
@@ -22,20 +22,24 @@
  
 # greeting()
 # greeting("anaya",50000)
+# greeting(50000,"meghana")
 
 # def greeting(name,salary):
 #     print("Good Morning",name,"\n Salary credited ",salary)
  
-# # greeting()
+# greeting()
 # greeting("anaya",50000)
-
+# x=200
 # a=20 # global
 # b=30
-# def sum(a,b):
+# def sum(a,b): #sum(20,30)
+#     print(a,b)
 #     a=40 #local variable
 #     b=60
 #     # c=150
 #     print(a+b)
+#     x=300
+#     print(x)
 
 # sum(a,b)
 # print(a,b)
@@ -44,20 +48,27 @@
 mylisSal=[]
 
 def employee(name,salary):
-    print(f"\nEmploye {name}\n Salary Credited {salary}")
+    print(f"\nEmployee {name}\n Salary Credited {salary}")
     bonus=15000
-    mylisSal.append(salary+bonus)
-    return salary+bonus
+    salary=salary+bonus
+    mylisSal.append(salary)
+    if salary<50000:
+        print("total salary is ",salary)
+        return salary,bonus
+    else:
+        print("Total salary is greater than 50000",salary)
+        return salary,bonus
 
-
-
-AneesSal=employee("Anees",25000) #AneesSal=40000
-GobinSal=employee("Gobin",35000) #GobinSal=50000
-MeghanaSal=employee("Meghana",45000) #MeghanaSal=60000
-print("\n")
-print(AneesSal,GobinSal,MeghanaSal)
-print((AneesSal+GobinSal+MeghanaSal)/3)
-print(mylisSal)
+a,b=employee("Anees",125000) #AneesSal=40000
+print(a,b)
+# print("outside the function anees sal",AneesSal)
+# GobinSal=employee("Gobin",35000) #GobinSal=50000
+# print("outside the function gobin sal",GobinSal)
+# MeghanaSal=employee("Meghana",45000) #MeghanaSal=60000
+# print("\n")
+# print(AneesSal,GobinSal,MeghanaSal)
+# print((AneesSal+GobinSal+MeghanaSal)/3)
+# print(mylisSal)
 
 # 1)write a 4 functions
 # a)to find the area of circle
