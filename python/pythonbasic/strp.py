@@ -31,3 +31,4 @@ print(a.isdigit())
 txt = "banana"
 x = txt.center(120)
 print(x)
+
