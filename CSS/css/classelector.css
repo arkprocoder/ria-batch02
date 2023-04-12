@@ -1,0 +1,40 @@
+*{
+    background-color: lightcoral;
+    text-align: center;
+}
+
+
+
+
+.item{
+color: darkolivegreen;
+background-color: black;
+padding: 10px;
+margin: 2px;
+
+}
+
+.container{
+   
+    font-family: cursive;
+    padding: 58px;
+    margin-top: 46px;
+}
+
+.dummy-item{
+    color: deeppink;
+    background-color: darkgrey;
+    padding: 20px;
+}
+
+.btn {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #4bbf73;
+    border-color: #4bbf73;
+
+}
