@@ -1,0 +1,11 @@
+/* css combinators */
+
+div p{
+    color: goldenrod;
+    background-color: gainsboro;
+}
+
+div > p{
+    color: brown;
+    background-color: black;
+}
