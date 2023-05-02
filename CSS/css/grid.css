@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    /* grid-template-columns: repeat(5,auto);
+     */
+    /* grid-template-columns:300px 100px 100px ; */
+    /* grid-template-columns:300px auto 100px ; */
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-gap: 2rem;
+    
+}
+.item{
+    background-color: rgb(237, 90, 90);
+    border: 2px solid white;
+    padding: 5px 5px;
+    height: 100px;
+    width: 100px;
+}
