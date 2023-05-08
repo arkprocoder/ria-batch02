@@ -32,7 +32,7 @@ else {
 
 
 let age1 = "5"; {
-    if (age1 == 5) {
+    if (age1 === 5) {
         console.log("true");
     } else {
         console.log("false");
