@@ -8,7 +8,7 @@
 // true && false=false
 // false && true=false
 // false && false=false
-/*
+
 console.log("if else loop");
 // console.log(22=='22');
 const age = 23;
@@ -56,13 +56,13 @@ let bro1 = false; {
         console.log("false bro")
     }
 }
-*/
+
 
 // ternary operator
 // let myage=24;
 // console.log(myage>20?'yes i am 24':'no i am not 24');
 // console.log(myage>20?true:false);
-// console.log(true?true:false);
+ console.log(true?true:false);
 // console.log(false?true:false);
 
 
